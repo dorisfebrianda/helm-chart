@@ -91,7 +91,7 @@ virtualservice:
   port: 80
   match: []
   hosts:
-    - web-thoni.tcd-dev.id
+    - doris-test.tcd-dev.id
   gateways:
     - gateway/http-gateway
     - gateway/https-gateway
@@ -105,7 +105,7 @@ ingress:
     kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: api-brimola.ddb.bri.co.id
+    - host: test.com
       port: http
 
   tls: []

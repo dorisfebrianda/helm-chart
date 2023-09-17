@@ -49,7 +49,7 @@ virtualservice:
   port: 80
   match: []
   hosts:
-    - web-thoni.tcd-dev.id
+    - doris-test.tcd-dev.id
   gateways:
     - gateway/http-gateway
     - gateway/https-gateway  
